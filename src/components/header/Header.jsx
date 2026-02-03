@@ -15,7 +15,7 @@ const Header = () => {
         className='cards'
         modules={[Navigation, Pagination, Autoplay]}
         slidesPerView={1}
-        //  autoplay={{delay:3000}}
+        autoplay={{delay:3000}}
         >
           <SwiperSlide className='card'>
             <div >

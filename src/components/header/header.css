@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Young+Serif&display=swap');
 
 .container{
-    width: 100vw;
+    width: 99.2vw;
     height: 100vh;
     padding: 0;
     position: relative;
@@ -19,8 +19,8 @@
 }
 
 .card img{
-    width: 100%;
-    height: 100%;
+    width: 99.2vw;
+    height: 100vh;
     object-fit: cover;
 }
 
