@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Young+Serif&display=swap');
 
+.d-flex{
+    display: flex;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
 .container{
     width: 99.2vw;
     height: 100vh;
@@ -47,4 +63,23 @@
     transform: translate(-50%, -50%);
     text-align: center;
     z-index: 10;
+}
+
+.navigation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    background: transparent;
+    padding: 15px 15%;
+    display: flex;
+}
+
+.navigation .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    cursor: pointer;
 }

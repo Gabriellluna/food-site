@@ -1,9 +1,12 @@
 import React from 'react';
+import './About.css'
 
 const About = () => {
   return (
     <>
-      <p>teste para ver se fica embaixo do bagulho</p>
+      <div className='about-container'>
+
+      </div>
     </>
   );
 };

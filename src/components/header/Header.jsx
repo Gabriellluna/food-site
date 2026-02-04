@@ -29,6 +29,16 @@ const Header = () => {
           </SwiperSlide>
         </Swiper>
         <h1 className='slogan'>Precisão no corte, excelência no sabor</h1>
+        <div className='navigation justify-content-between'>
+          <img alt='logo aqui' src='images/logo.png'></img>
+          <div className='nav'>
+            <h3>Home</h3>
+            <a href='/sobre'><h3>Sobre</h3></a>
+            <h3>Rodízio</h3>
+            <h3>Cardápio</h3>
+            <h3>Contato</h3>
+          </div>
+        </div>
       </div>
     </>
   );
