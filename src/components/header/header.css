@@ -76,6 +76,12 @@
     display: flex;
 }
 
+.navigation--solid {
+  background: #000;
+  position: fixed !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
 .navigation .nav{
     display: flex;
     align-items: center;
