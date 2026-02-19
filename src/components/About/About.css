@@ -1,5 +1,5 @@
 .cut-section {
-  height: 800px;
+  height: 650px;
   background: white;
   display: flex;
   align-items: center;
@@ -29,4 +29,51 @@
 
 .flex-direction-column{
     flex-direction: column;
+}
+
+.cut-section-title{
+  color: #BE0F14;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.cut-section-subtitle{  
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 0 40px 15px 40px;
+}
+
+.cut-section-subtitle p{
+  padding: 10px;
+  color: #000000;
+}
+
+.cut-section-subtitle p:nth-child(1) {
+  align-self: flex-start;
+}
+
+.cut-section-subtitle p:nth-child(2) {
+  align-self: center;
+}
+
+.cut-section-subtitle p:nth-child(3) {
+  align-self: flex-end;
+}
+
+.quick-links{
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links{
+  height: 150px;
+  width: 150px;
+  border-radius: 30px;
+  background: #BE0F14;
 }

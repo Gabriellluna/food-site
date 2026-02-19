@@ -11,11 +11,11 @@ import { useSearchParams } from 'react-router-dom';
 const Header = () => {
   
   const [show, setShow] = useState(false)
-  const header = document.getElementById('container');
+  const vh100 = window.innerHeight;
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-    if (window.scrollY > header ) {
+    if (window.scrollY > vh100 ) {
       setShow(true)
     } else {
       setShow(false)
@@ -49,15 +49,15 @@ const Header = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-        <h1 className='slogan'>Precisão no corte, excelência no sabor</h1>
+        <h1 className='slogan text-white'>Precisão no corte, excelência no sabor</h1>
         <div className={`navigation justify-content-between ${show === true ? 'navigation--solid' : null}`}>
           <img alt='logo aqui' src='images/logo.png'></img>
           <div className='nav'>
-            <h3>Home</h3>
-            <a href='/sobre'><h3>Sobre</h3></a>
-            <h3>Rodízio</h3>
-            <h3>Cardápio</h3>
-            <h3>Contato</h3>
+            <a href="/"><h3 className='text-white'>Home</h3></a>
+            <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
+            <h3 className='text-white'>Rodízio</h3>
+            <h3 className='text-white'>Cardápio</h3>
+            <h3 className='text-white'>Contato</h3>
           </div>
         </div>
       </div>

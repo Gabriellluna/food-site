@@ -1,0 +1,9 @@
+.black-bg{
+    height: 100px;
+    background: #000000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

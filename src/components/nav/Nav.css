@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Young+Serif&display=swap');
+
+body {
+  overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+}
+
+.col-lg-12{
+    width: 100vw;
+}
+
+.navigator{
+    width: 100%;
+    height: 360px;
+    background-image: url('images/dish6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    position: relative;
+}
+
+.navigator::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0000008f;
+    z-index: 1;
+}
+
+.navigator-content{
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-name{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    z-index: 10;
+    font-size: x-large;
+}

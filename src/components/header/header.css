@@ -74,6 +74,7 @@
     background: transparent;
     padding: 15px 15%;
     display: flex;
+    transition: 0.3s ease-in-out;
 }
 
 .navigation--solid {
@@ -82,10 +83,14 @@
   box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
-.navigation .nav{
+.nav{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     cursor: pointer;
+}
+
+.text-white{
+    color: #FFFFFF;
 }
