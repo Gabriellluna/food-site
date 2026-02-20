@@ -1,0 +1,23 @@
+.quick-links{
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: space-around;
+  background: #FFFFFF;
+}
+
+.links{
+  height: 150px;
+  width: 150px;
+  border-radius: 30px;
+  background: #BE0F14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links i{
+  font-size: 65px;
+  color: #FFFFFF;
+}
