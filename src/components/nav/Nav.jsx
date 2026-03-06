@@ -2,13 +2,12 @@ import React, { useEffect, useState } from 'react';
 import {Swiper, SwiperSlide} from 'swiper/react'
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import './Nav.css'
-import { useSearchParams } from 'react-router-dom';
 
 const Nav = ({name}) => {
   return (
     <>
-        <div className='col-lg-12'>
-            <div className='navigator'>
+        <div className='col-lg-12'>    
+            <div className='navigator' style={{ backgroundImage: `url(./images/dish6.jpg)` }} >
                 <div className='navigator-content'>
                     <a href='/'><img alt='logo aqui' src='images/logo.png'></img></a>
                     <div className='nav'>
