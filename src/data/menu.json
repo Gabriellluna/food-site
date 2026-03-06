@@ -1,0 +1,149 @@
+{
+  "categorias": [
+    {
+      "nome": "Sushis",
+      "itens": [
+        {
+          "nome": "Sushi de Salmão",
+          "descricao": "Arroz japonês temperado com fatia fresca de salmão.",
+          "preco": "12,00",
+          "imagem": "/menu/sushi/sushi1.jpg"
+        },
+        {
+          "nome": "Sushi de Atum",
+          "descricao": "Arroz com fatia de atum selecionado.",
+          "preco": "14,00",
+          "imagem": "/menu/sushi/sushi2.jpg"
+        },
+        {
+          "nome": "Sushi Skin",
+          "descricao": "Sushi com pele de salmão crocante.",
+          "preco": "11,00",
+          "imagem": "/menu/sushi/sushi3.jpg"
+        },
+        {
+          "nome": "Sushi Kani",
+          "descricao": "Sushi com kani e toque de gergelim.",
+          "preco": "10,00",
+          "imagem": "/menu/sushi/sushi4.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Sashimis",
+      "itens": [
+        {
+          "nome": "Sashimi de Salmão",
+          "descricao": "Fatias frescas de salmão premium.",
+          "preco": "28,00",
+          "imagem": "/menu/sashimi/sashimi1.jpg"
+        },
+        {
+          "nome": "Sashimi de Atum",
+          "descricao": "Fatias nobres de atum.",
+          "preco": "32,00",
+          "imagem": "/menu/sashimi/sashimi2.jpg"
+        },
+        {
+          "nome": "Sashimi de Peixe Branco",
+          "descricao": "Peixe branco fresco cortado em fatias.",
+          "preco": "26,00",
+          "imagem": "/menu/sashimi/sashimi3.jpg"
+        },
+        {
+          "nome": "Sashimi Especial",
+          "descricao": "Mix de sashimis selecionados.",
+          "preco": "38,00",
+          "imagem": "/menu/sashimi/sashimi4.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Temakis",
+      "itens": [
+        {
+          "nome": "Temaki de Salmão",
+          "descricao": "Cone de alga recheado com arroz e salmão.",
+          "preco": "22,00",
+          "imagem": "/menu/temaki/temaki1.jpg"
+        },
+        {
+          "nome": "Temaki Califórnia",
+          "descricao": "Kani, pepino, manga e maionese japonesa.",
+          "preco": "20,00",
+          "imagem": "/menu/temaki/temaki2.jpg"
+        },
+        {
+          "nome": "Temaki Salmão Cream Cheese",
+          "descricao": "Salmão fresco com cream cheese.",
+          "preco": "24,00",
+          "imagem": "/menu/temaki/temaki3.jpg"
+        },
+        {
+          "nome": "Temaki Camarão",
+          "descricao": "Camarão empanado com molho especial.",
+          "preco": "26,00",
+          "imagem": "/menu/temaki/temaki4.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Hot Rolls",
+      "itens": [
+        {
+          "nome": "Hot Roll Salmão",
+          "descricao": "Empanado com salmão e cream cheese.",
+          "preco": "30,00",
+          "imagem": "/menu/hotroll/hotroll1.jpg"
+        },
+        {
+          "nome": "Hot Roll Camarão",
+          "descricao": "Empanado com camarão e molho especial.",
+          "preco": "34,00",
+          "imagem": "/menu/hotroll/hotroll2.jpg"
+        },
+        {
+          "nome": "Hot Roll Especial",
+          "descricao": "Hot roll com salmão, kani e molho tarê.",
+          "preco": "32,00",
+          "imagem": "/menu/hotroll/hotroll3.jpg"
+        },
+        {
+          "nome": "Hot Roll Filadélfia",
+          "descricao": "Empanado com salmão e cream cheese.",
+          "preco": "31,00",
+          "imagem": "/menu/hotroll/hotroll4.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Drinks",
+      "itens": [
+        {
+          "nome": "Suco Natural de Laranja",
+          "descricao": "Suco natural espremido na hora.",
+          "preco": "8,00",
+          "imagem": "/menu/drink/drink1.jpg"
+        },
+        {
+          "nome": "Suco Natural de Abacaxi",
+          "descricao": "Suco refrescante de abacaxi.",
+          "preco": "8,00",
+          "imagem": "/menu/drink/drink2.jpg"
+        },
+        {
+          "nome": "Refrigerante Lata",
+          "descricao": "Coca-Cola, Guaraná ou Sprite.",
+          "preco": "6,00",
+          "imagem": "/menu/drink/drink3.jpg"
+        },
+        {
+          "nome": "Chá Gelado",
+          "descricao": "Chá gelado refrescante.",
+          "preco": "7,00",
+          "imagem": "/menu/drink/drink4.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+.about-container{
+  padding: 100px 20px;
+  background: radial-gradient(circle at top, #2b2b2b, #121212);
+  color: white;
+}
+
+.about-content{
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text h2{
+  font-size: 38px;
+  margin-bottom: 20px;
+  color: #BE0F14;
+}
+
+.about-text p{
+  line-height: 1.7;
+  margin-bottom: 18px;
+  color: #ddd;
+}
+
+.about-image img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+.about-history{
+  max-width: 900px;
+  margin: 80px auto 0;
+  text-align: center;
+}
+
+.about-history h3{
+  font-size: 30px;
+  color: #BE0F14;
+  margin-bottom: 20px;
+}
+
+.about-history p{
+  color: #ccc;
+  line-height: 1.7;
+}

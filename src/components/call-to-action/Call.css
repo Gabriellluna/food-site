@@ -1,23 +1,60 @@
 .quick-links{
   width: 100%;
   display: flex;
-  padding: 50px;
-  align-items: center;
-  justify-content: space-around;
-  background: #FFFFFF;
-}
-
-.links{
-  height: 150px;
-  width: 150px;
-  border-radius: 30px;
-  background: #BE0F14;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 80px;
+  padding: 80px 20px;
+  background: #F5F5F5;
+  flex-wrap: wrap;
 }
 
-.links i{
-  font-size: 65px;
-  color: #FFFFFF;
+.quick-card{
+  width: 220px;
+  height: 200px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #222;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+  transition: all 0.3s ease;
+}
+
+.quick-card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.icon{
+  width: 70px;
+  height: 70px;
+  background: #BE0F14;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 15px;
+}
+
+.icon i{
+  font-size: 30px;
+  color: #FFF;
+}
+
+.quick-card h3{
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.quick-card p{
+  font-size: 14px;
+  color: #777;
 }

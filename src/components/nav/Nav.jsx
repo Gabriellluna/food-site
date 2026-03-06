@@ -15,7 +15,7 @@ const Nav = ({name}) => {
                         <a href="/"><h3 className='text-white'>Home</h3></a>
                         <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
                         <h3 className='text-white'>Rodízio</h3>
-                        <h3 className='text-white'>Cardápio</h3>
+                        <a href="/cardapio"><h3 className='text-white'>Cardápio</h3></a>
                         <h3 className='text-white'>Contato</h3>
                     </div>
                 </div>
