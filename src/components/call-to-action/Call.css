@@ -58,3 +58,21 @@
   font-size: 14px;
   color: #777;
 }
+
+.business-hours{
+  padding: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.business-hours h1{
+  text-transform: uppercase;
+  color: #BE0F14;
+}
+
+.business-hours h2{
+  color: #000000;
+  padding: 5px;
+}

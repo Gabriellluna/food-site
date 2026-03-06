@@ -1,10 +1,10 @@
-.about-container{
+.about-container {
   padding: 100px 20px;
   background: radial-gradient(circle at top, #2b2b2b, #121212);
   color: white;
 }
 
-.about-content{
+.about-content {
   max-width: 1200px;
   margin: auto;
   display: grid;
@@ -13,36 +13,127 @@
   align-items: center;
 }
 
-.about-text h2{
+.about-text h2 {
   font-size: 38px;
   margin-bottom: 20px;
   color: #BE0F14;
 }
 
-.about-text p{
+.about-text p {
   line-height: 1.7;
   margin-bottom: 18px;
   color: #ddd;
+  font-size: 18px;
 }
 
-.about-image img{
+.about-image img {
   width: 100%;
   border-radius: 15px;
 }
 
-.about-history{
+.about-history {
   max-width: 900px;
   margin: 80px auto 0;
   text-align: center;
+  padding: 30px;
 }
 
-.about-history h3{
+.about-history h3 {
   font-size: 30px;
   color: #BE0F14;
   margin-bottom: 20px;
 }
 
-.about-history p{
+.about-history p {
   color: #ccc;
   line-height: 1.7;
+  font-size: 18px;
 }
+
+.about-highlights {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.about-highlights h1:nth-child(1) {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+
+.about-highlights div h1:nth-child(2) {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+
+.about-highlights h1:nth-child(3) {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.about-highlights h1{
+  padding: 15px 80px;
+  margin: 10px;
+  color: #BE0F14;
+  text-transform: uppercase;
+}
+
+.second-highlight{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.second-highlight p{
+  font-size: 20px;
+}
+
+.about-highlights h1:nth-child(1){
+  position: relative;
+}
+
+/* .about-highlights h1:nth-child(1)::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  align-items: center;
+  background: #8f0000;
+  transition: 1s;
+}
+
+.about-highlights h1:nth-child(3)::after{
+  content: "";
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(-10%, -50%);
+  height: 1px;
+  width: 25%;
+  background: #7c0000;
+  transition: 1s;
+  
+}
+
+.about-highlights:hover{
+  .highlight-left::before{
+    transform: translateX(100%);
+    background: #BE0F14;
+  }
+}
+
+.about-highlights:hover{
+  .highlight-right::after{
+    transform: translateX(-100%);
+    background: #BE0F14;
+  } 
+}
+*/

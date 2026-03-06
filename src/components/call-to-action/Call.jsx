@@ -29,6 +29,13 @@ const Call = () => {
         <p>Peça seu delivery</p>
       </a>
 
+      <div className="business-hours">
+        <h1>Horário de Funcionamento:</h1>
+        <h2>Segunda-feira a Sexta-feira: 17:00 - 19:00</h2>
+        <h2>Sábado: 14:00 - 21:00</h2>
+        <h2>Domingo: Fechado</h2>
+      </div>
+
     </div>
   );
 };
