@@ -20,13 +20,6 @@
     align-items: center;
 }
 
-.container{
-    width: 99.2vw;
-    height: 100vh;
-    padding: 0;
-    position: relative;
-}
-
 .cards{
     height: 100%;
     width: 100%;
@@ -39,7 +32,7 @@
 }
 
 .card img{
-    width: 99.2vw;
+    width: 100%;
     height: 100vh;
     object-fit: cover;
 }
@@ -166,4 +159,8 @@
     .slogan{
         font-size: 50px;
     }
+}
+
+.header-container {
+  width: 100%;
 }

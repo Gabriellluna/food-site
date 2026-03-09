@@ -30,8 +30,8 @@ const Header = () => {
   };
 
   return (
-    <>
-      <div className='container' id='container'>
+    <div>
+      <div className='header-container' >
         <Swiper
           className='cards'
           modules={[Navigation, Pagination, Autoplay]}
@@ -80,7 +80,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

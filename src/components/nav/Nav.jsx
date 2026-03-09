@@ -6,7 +6,7 @@ import './Nav.css'
 const Nav = ({name}) => {
   return (
     <>
-        <div className='col-lg-12'>    
+        <div>    
             <div className='navigator' style={{ backgroundImage: `url(./images/dish6.jpg)` }} >
                 <div className='navigator-content'>
                     <a href='/'><img alt='logo aqui' src='images/logo.png'></img></a>
