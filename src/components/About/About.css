@@ -33,9 +33,10 @@
 
 .cut-section-title{
   color: #BE0F14;
-  padding: 15px;
+  padding: 30px;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .cut-section-subtitle{  
@@ -44,6 +45,7 @@
   flex-direction: column;
   font-size: 20px;
   padding: 0 40px 15px 40px;
+  text-align: center;
 }
 
 .cut-section-subtitle p{
@@ -61,4 +63,28 @@
 
 .cut-section-subtitle p:nth-child(3) {
   align-self: flex-end;
+}
+
+@media (max-width: 767px){
+  .cut-image{
+    height: 130% !important;
+  }
+}
+
+@media (max-width: 532px){
+  .cut-image{
+    height: 150% !important;
+  }
+  .cut-section-subtitle{
+    padding: 5px;
+  }
+  .business-hours h1{
+    font-size: 30px;
+  }
+  .business-hours h2{
+    font-size: 20px;
+  }
+  .business-hours{
+    padding: 20px !important;
+  }
 }

@@ -44,6 +44,7 @@ const Menu = () => {
                             <img
                                 src={item.imagem}
                                 alt={item.nome}
+                                loading="lazy"
                             />
 
                             <div className="menu-info">

@@ -39,14 +39,10 @@ const Header = () => {
           autoplay={{ delay: 3000 }}
         >
           <SwiperSlide className='card'>
-            <div >
-              <img src='images/dish1.jpg'></img>
-            </div>
+            <img src='images/dish1.jpg'></img>
           </SwiperSlide>
           <SwiperSlide className='card'>
-            <div >
-              <img src='images/dish2.jpg'></img>
-            </div>
+            <img src='images/dish2.jpg'></img>
           </SwiperSlide>
         </Swiper>
         <h1 className='slogan text-white'>Precisão no corte, excelência no sabor</h1>
@@ -57,10 +53,10 @@ const Header = () => {
             <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
             <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
             <h3 className='text-white'>Rodízio</h3>
-            <h3 className='text-white'>Contato</h3>
+            <a href="/contato"><h3 className='text-white'>Contato</h3></a>
           </div>
           <div className='menu-mobile-container'>
-            <div className="menu-mobile" onClick={setActive} style={{display: `${menuActive ? "none" : "block"}`}}>
+            <div className="menu-mobile" onClick={setActive} style={{ display: `${menuActive ? "none" : "block"}` }}>
               <div></div>
               <div></div>
               <div></div>
@@ -74,7 +70,7 @@ const Header = () => {
                 <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
                 <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
                 <h3 className='text-white'>Rodízio</h3>
-                <h3 className='text-white'>Contato</h3>
+                <a href="/contato"><h3 className='text-white'>Contato</h3></a>
               </div>
             </div>
           </div>

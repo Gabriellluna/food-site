@@ -70,9 +70,11 @@
 .business-hours h1{
   text-transform: uppercase;
   color: #BE0F14;
+  text-align: center;
 }
 
 .business-hours h2{
   color: #000000;
   padding: 5px;
+  text-align: center;
 }

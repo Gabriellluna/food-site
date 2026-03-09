@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Young+Serif&display=swap');
 
+body{
+    overflow-x: hidden;
+}
+
+.header-container {
+  width: 100%;
+  height: 100vh;
+}
+
 .d-flex{
     display: flex;
 }
@@ -21,7 +30,7 @@
 }
 
 .cards{
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
@@ -29,11 +38,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
 .card img{
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -105,7 +115,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: fixed;
 }
 
 .menu-mobile div:nth-child(1){
@@ -161,6 +170,3 @@
     }
 }
 
-.header-container {
-  width: 100%;
-}
