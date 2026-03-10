@@ -76,9 +76,6 @@
 }
 
 @media (max-width: 532px){
-  .cut-image{
-    height: 180% !important;
-  }
   .cut-section-subtitle{
     padding: 5px;
   }
@@ -93,5 +90,12 @@
   }
   .cut-section-subtitle p{
     font-size: 16px;
+  }
+  .cut-section-title{
+    font-size: 30px;
+    padding: 20px;
+  }
+  .cut-image{
+    height: 110% !important;
   }
 }
