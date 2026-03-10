@@ -66,7 +66,7 @@ const AboutSection = () => {
 
       </div>
 
-      <div className="about-highlights">
+      {/* <div className="about-highlights">
         <motion.h1
           className="highlight-left"
           initial={{ opacity: 0, x: 0 }}
@@ -85,7 +85,7 @@ const AboutSection = () => {
           transition={{ duration: 1.5, delay: 0.6 }}
           viewport={{ once: true }}
         >Sabor</motion.h1>
-      </div>
+      </div> */}
 
     </section>
 
