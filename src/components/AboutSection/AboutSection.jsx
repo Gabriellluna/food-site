@@ -14,7 +14,7 @@ const AboutSection = () => {
 
         <div className="about-text">
 
-          <h2>Sobre Nós</h2>
+          <h2>Conheça o Restaurante</h2>
 
           <p>
             O <strong>Comida Oriental & Talls</strong> nasceu com a missão de trazer
