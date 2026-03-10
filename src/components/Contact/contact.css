@@ -1,15 +1,22 @@
+a{
+    text-decoration: none;
+}
+
 .contact-page{
     min-height:100vh;
-    background:#0a0a0a;
+    background: radial-gradient(circle at center, #252525, #121212);
     color:white;
     font-family: "Young Serif", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* HERO */
 
 .contact-hero{
     text-align:center;
-    padding:120px 20px 60px 20px;
+    padding: 60px 20px 60px 20px;
 }
 
 .contact-hero h1{
@@ -39,10 +46,12 @@
     border-radius:10px;
     text-align:center;
     transition:0.3s;
+    color: #FFFFFF;
+    height: 100%;
 }
 
 .contact-card:hover{
-    transform:translateY(-5px);
+    transform:translateY(-10px);
     background:#1f1f1f;
 }
 

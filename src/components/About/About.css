@@ -73,7 +73,7 @@
 
 @media (max-width: 532px){
   .cut-image{
-    height: 150% !important;
+    height: 180% !important;
   }
   .cut-section-subtitle{
     padding: 5px;
@@ -86,5 +86,8 @@
   }
   .business-hours{
     padding: 20px !important;
+  }
+  .cut-section-subtitle p{
+    font-size: 16px;
   }
 }

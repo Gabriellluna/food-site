@@ -6,6 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './header.css'
+import './nav.css'
 import { useSearchParams } from 'react-router-dom';
 
 const Header = () => {
@@ -56,7 +57,7 @@ const Header = () => {
             <a href="/contato"><h3 className='text-white'>Contato</h3></a>
           </div>
           <div className='menu-mobile-container'>
-            <div className="menu-mobile" onClick={setActive} style={{ display: `${menuActive ? "none" : "block"}` }}>
+            <div className="menu-mobile" onClick={setActive} style={{ display: `${menuActive ? "none" : "flex"}` }}>
               <div></div>
               <div></div>
               <div></div>
@@ -64,13 +65,15 @@ const Header = () => {
             <div className={`nav-list ${menuActive ? 'open' : ''}`}>
               <div
                 className="list"
-                style={{ animationDelay: ".5s" }}
               >
-                <a href="/"><h3 className='text-white'>Home</h3></a>
-                <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
-                <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
-                <h3 className='text-white'>Rodízio</h3>
-                <a href="/contato"><h3 className='text-white'>Contato</h3></a>
+                <div>
+                  <a href="/"><h3 className='text-white'>Home</h3></a>
+                  <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
+                  <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
+                  <h3 className='text-white'>Rodízio</h3>
+                  <a href="/contato"><h3 className='text-white'>Contato</h3></a>
+                </div>
+                <i class="fa-solid fa-x" onClick={setActive}></i>
               </div>
             </div>
           </div>

@@ -26,8 +26,13 @@
   font-size: 18px;
 }
 
+.about-image{
+  display: flex;
+  justify-content: center;
+}
+
 .about-image img {
-  width: 100%;
+  width: 80%;
   border-radius: 15px;
 }
 
@@ -96,6 +101,37 @@
 
 .about-highlights h1:nth-child(1){
   position: relative;
+}
+
+@media (max-width: 991px){
+  .about-content{
+    grid-template-columns: 1fr;
+  } 
+  
+  .about-text{
+    padding: 50px;
+  }
+
+  .about-text h2{
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px){
+  .about-highlights div h1:nth-child(2){
+    font-size: 50px;
+  }
+  .second-highlight p{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 385px){
+  .second-highlight p{
+    font-size: 16px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
 }
 
 /* .about-highlights h1:nth-child(1)::before{
