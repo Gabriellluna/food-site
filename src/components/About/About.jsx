@@ -30,7 +30,7 @@
         <section className="cut-section d-flex flex-direction-column justify-content-end">
         <div>
           <h1 className='cut-section-title'>A Arte de Nutrir a Alma com Tradição</h1>
-          <div className='col-lg-12 d-flex justify-content-center'>
+          <div className='d-flex justify-content-center'>
             <div className='cut-section-subtitle'>
               <p>Muito além do prato: um ritual de respeito e harmonia.</p>
               <p>Ingredientes selecionados, frescor absoluto e dedicação artesanal.</p>

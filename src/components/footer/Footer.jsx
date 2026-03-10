@@ -7,7 +7,7 @@ import { useSearchParams } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-        <div className='col-lg-12 black-bg'>
+        <div className='black-bg'>
             <div>
                 <p>© 2026 Comida Oriental & Talls. Todos os direitos reservados.</p>
             </div>

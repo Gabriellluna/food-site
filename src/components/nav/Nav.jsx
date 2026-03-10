@@ -46,7 +46,7 @@ const Nav = ({ name }) => {
                         </div>
 
                     </div>
-                    <div className='col-lg-12 d-flex justify-content-center align-items-center page-name'>
+                    <div style={{width:"100%"}} className='d-flex justify-content-center align-items-center page-name'>
                         <span>{name}</span>
                     </div>
                 </div>
