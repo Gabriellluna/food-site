@@ -108,3 +108,9 @@ body{
         padding: 15px 7%;
     }
 }
+
+@media (max-width: 767px){
+    .logo-img{
+        max-height: 117px;
+    }
+}

@@ -55,8 +55,12 @@
     }
 }
 
-@media (max-width: 767){
+@media (max-width: 767px){
     .page-name span{
-        font-size: 60px !important;
+        font-size: 55px !important;
+    }
+
+    .navigator-content img{
+        height: 75%;
     }
 }

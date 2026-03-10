@@ -47,7 +47,7 @@ const Nav = ({ name }) => {
 
                     </div>
                     <div className='col-lg-12 d-flex justify-content-center align-items-center page-name'>
-                        <h1>{name}</h1>
+                        <span>{name}</span>
                     </div>
                 </div>
             </div>

@@ -48,12 +48,11 @@ const Header = () => {
         </Swiper>
         <h1 className='slogan text-white'>Precisão no corte, excelência no sabor</h1>
         <div className={`navigation justify-content-between ${show === true ? 'navigation--solid' : null}`}>
-          <img alt='logo aqui' src='images/logo.png'></img>
+          <img className='logo-img' alt='logo aqui' src='images/logo.png'></img>
           <div className='nav'>
             <a href="/"><h3 className='text-white'>Home</h3></a>
             <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
             <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
-            <h3 className='text-white'>Rodízio</h3>
             <a href="/contato"><h3 className='text-white'>Contato</h3></a>
           </div>
           <div className='menu-mobile-container'>
@@ -70,7 +69,6 @@ const Header = () => {
                   <a href="/"><h3 className='text-white'>Home</h3></a>
                   <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
                   <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
-                  <h3 className='text-white'>Rodízio</h3>
                   <a href="/contato"><h3 className='text-white'>Contato</h3></a>
                 </div>
                 <i class="fa-solid fa-x" onClick={setActive}></i>
