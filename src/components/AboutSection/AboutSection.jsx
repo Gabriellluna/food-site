@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const AboutSection = () => {
   
-  const offset = window.innerWidth < 768 ? "5%" : "20%";
-  const offset2 = window.innerWidth < 768 ? "-5%" : "-20%";
+  const offset = window.innerWidth < 768 ? "10%" : "20%";
+  const offset2 = window.innerWidth < 768 ? "-10%" : "-20%";
 
   return (
 

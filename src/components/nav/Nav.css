@@ -32,6 +32,11 @@
     padding: 10px 80px;
 }
 
+.navigator-content a{
+    display: flex;
+    align-items: center;
+}
+
 .page-name{
     font-family: "Young Serif", serif;
     font-weight: 400;
