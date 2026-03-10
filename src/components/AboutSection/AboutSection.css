@@ -110,7 +110,8 @@
   } 
   
   .about-text{
-    padding: 50px;
+    padding: 0;
+    text-align: justify;
   }
 
   .about-text h2{
