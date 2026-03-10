@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Young+Serif&display=swap');
+
 .cut-section {
   height: 650px;
   background: white;
@@ -37,6 +39,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  font-family: "Young Serif", serif;
 }
 
 .cut-section-subtitle{  
@@ -49,6 +52,7 @@
 }
 
 .cut-section-subtitle p{
+  font-family: "Young Serif", serif;
   padding: 10px;
   color: #000000;
 }
