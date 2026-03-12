@@ -53,7 +53,7 @@ const Header = () => {
             <a href="/"><h3 className='text-white'>Home</h3></a>
             <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
             <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
-            <a href='/evento'><h3 className='text-white'>Faça seu Evento</h3></a>
+            <a href='/evento'><h3 className='text-white'>Eventos</h3></a>
             <a href="/contato"><h3 className='text-white'>Contato</h3></a>
           </div>
           <div className='menu-mobile-container'>
@@ -70,7 +70,7 @@ const Header = () => {
                   <a href="/"><h3 className='text-white'>Home</h3></a>
                   <a href='/sobre'><h3 className='text-white'>Sobre</h3></a>
                   <a href='/cardapio'><h3 className='text-white'>Cardápio</h3></a>
-                  <a href='/evento'><h3 className='text-white'>Faça seu Evento</h3></a>
+                  <a href='/evento'><h3 className='text-white'>Eventos</h3></a>
                   <a href="/contato"><h3 className='text-white'>Contato</h3></a>
                 </div>
                 <i class="fa-solid fa-x" onClick={setActive}></i>

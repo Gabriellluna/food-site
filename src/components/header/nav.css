@@ -38,9 +38,13 @@
 @media (max-width: 767px){
     .menu-mobile-container{
         display: flex;
+        align-items: flex-end;
     }
     .nav{
         display: none;
+    }
+    .nav-list .list div h3{
+        font-size: 16px;
     }
 }
 
