@@ -128,3 +128,9 @@
 .download button:hover{
   transform: scale(1.05);
 }
+
+@media (max-width: 991px){
+  .download button{
+    font-size: 25px;
+  }
+}

@@ -30,8 +30,8 @@ const Call = () => {
       </a>
       <div className="business-hours">
         <h1>Horário de Funcionamento:</h1>
-        <h2>Segunda a Sexta : 17:00 - 19:00</h2>
-        <h2>Sábado: 14:00 - 21:00</h2>
+        <h2>Segunda a Quinta : 11:30 - 22:00</h2>
+        <h2>Sexta a Sábado: 11:30 - 23:30</h2>
         <h2>Domingo: Fechado</h2>
       </div>
     </div>
