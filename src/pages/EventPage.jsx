@@ -1,24 +1,24 @@
 import React from 'react';
 import Nav from '../components/nav/Nav';
 import Footer from '../components/footer/Footer';
+import Event from '../components/Event/Event';
 import Map from '../components/map/Map';
-import Contact from '../components/Contact/contact';
 import { useEffect } from 'react';
 
-function ContactPage() {
+function EventPage() {
 
   useEffect(() => {
-    document.title="Contato | Comida Oriental & Talls"
+    document.title="Eventos | Comida Oriental & Talls"
   }, [])
-  
+
   return (
     <div>
-        <Nav name={"Contato"}/>
-        <Contact/>  
+        <Nav name={"Eventos"}/>
+        <Event/>
         <Map/>
         <Footer/>
     </div>
   );
 }
 
-export default ContactPage;
+export default EventPage;

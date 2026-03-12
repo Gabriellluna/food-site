@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage'
 import MenuPage from './pages/MenuPage';
 import WhatsappButton from './components/WhatsappButton/WhatsappButton';
 import ContactPage from './pages/ContactPage';
+import EventPage from './pages/EventPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/sobre" element={<AboutPage />} />
         <Route path="/cardapio" element={<MenuPage />} />
         <Route path="/contato" element={<ContactPage />} />
+        <Route path="/evento" element={<EventPage />} />
       </Routes>
       <WhatsappButton />
     </>

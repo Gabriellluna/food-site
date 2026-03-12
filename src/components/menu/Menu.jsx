@@ -31,10 +31,10 @@ const Menu = () => {
                 </div>
 
                 <motion.div
-                className="menu-grid"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.4 }}
+                    className="menu-grid"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.4 }}
                 >
 
                     {menu.categorias[categoriaAtiva].itens.map((item, index) => (
@@ -54,7 +54,7 @@ const Menu = () => {
                                 <p>{item.descricao}</p>
 
                                 <span>R$ {item.preco}</span>
-                            
+
                             </div>
 
                         </div>
@@ -63,6 +63,14 @@ const Menu = () => {
 
                 </motion.div>
 
+            </div>
+
+            <div className="download d-flex justify-content-center">
+                <a href="https://drive.google.com/file/d/1ccp1vo9mTDeG3Wxy8G8aiBVhKmNddqVg/view" target="blank">
+                    <button>
+                        Confira nosso Cardápio em PDF!
+                    </button>
+                </a>
             </div>
         </div>
     );
